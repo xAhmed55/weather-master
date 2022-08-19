@@ -1,0 +1,153 @@
+.bgcolor1
+{
+    background-color: #1e202b !important;
+}
+.small1
+{
+    font-size: 10px;
+}
+.color1{
+    background-color: #323544;
+}
+.color2{
+background-color: #262936;
+}
+.top
+{
+    background: rgba(0, 0, 0, 0.1) !important;
+    padding: 10px !important;
+}
+body
+{
+    font-family: "Roboto", "Open Sans", sans-serif;
+}
+.color2-2
+{
+    background-color: #262936;
+}
+.logo
+{
+    width: 64px;
+    height: 38px;
+}
+.color{
+    color: #009ad8;
+}
+.home{
+    color: #009ad8;
+    padding: 5px 25px;
+    border-radius: 30px;
+    border: #009ad8 solid 2px;
+}
+a:hover{
+    color: #009ad8;
+}
+.other
+{
+    padding: 5px 25px;
+    border-radius: 30px;
+    border: transparent solid 2px;
+    transition: border-color 0.4s, color 0.4s;
+}
+.other:hover
+{    
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+.input{
+    background-image: url("../images/banner.png");
+        background-size: cover;
+        padding: 70px 0;
+        min-height: 350px;
+        max-height: 350px;
+}
+.city-input 
+{
+    border: none !important;
+    outline: none !important;
+    border-radius: 30px;
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+input[type="button"]
+{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    bottom: 5px;
+    border: none;
+    background: #009ad8;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: white;
+}
+.forcast
+{
+    margin-top: -160px;
+    margin-bottom: 50px;
+}
+.ro1-1
+{
+    border-top-left-radius:3px ;
+}
+.ro1-2
+{
+    border-bottom-left-radius:3px ;
+}
+.forecast-icon img{
+    vertical-align:initial
+}
+.degree
+{
+    font-weight: 700;
+}
+.tdegree
+{
+    font-size: 1.7142857143em;
+    font-weight: 700;
+}
+.num
+{
+    font-size: 5rem;
+    margin-right: 30px;
+}
+
+.forecast-content {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}   
+
+
+
+
+footer
+{
+    background: #262936;
+    padding: 50px 0;
+}
+.footer-btn
+{
+    right: 14% !important;
+}
+footer a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2.5;
+    transition:background-color 0.3s,color,0.3s;
+    font-size: 1em;
+}
+
+
+footer a:hover {
+    background-color: #009ad8;
+    color: white;
+}

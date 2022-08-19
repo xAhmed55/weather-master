@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bgcolor1">
+
+  <main class=" bgcolor1">
+    <nav class="navbar navbar-expand-lg bgcolor1 py-5">
+      <div class="container">
+        <div class="d-flex">
+          <img src="images/cloud.png" class="logo" alt="">
+          <div class="text-white ms-3">
+            <p class="m-0">Weather</p>
+            <p class="small1 text-muted">tagline goes here</p>
+          </div>
+        </div>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="other fa fa-bars"></i> 
+        </button>
+        <div class="collapse navbar-collapse justify-content-end text-white w-50" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="py-2"><a class="text-decoration-none home" href="#"> Home</li></a>
+            <li class="py-2"><a class="other text-decoration-none text-white" href="#"> News</li></a>
+            <li class="py-2"><a class="other text-decoration-none text-white" href="#"> Live cameras</li></a>
+            <li class="py-2"><a class="other text-decoration-none text-white" href="#"> Photos</li></a>
+            <li class="py-2"><a class="other text-decoration-none text-white" href="#"> Contact</li></a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <Section class="input ">
+      <div class="container position-relative mb-5">
+        <input type="text" class="city-input border-0 border" id="city-input">
+        <input type="button" value="Find" id="submit">
+      </div>
+
+
+
+    </Section>
+    <div class="container  text-white forcast ">
+
+      <div class="card-group row  ">
+        <div class="col-md-4 p-0 card border-0 color1">
+          <div class="card-footer ro1-1  top d-flex justify-content-between">
+            <small class="text-muted" id="today-day-name"></small>
+            <small class="text-muted" id="today-day-date"></small>
+          </div>
+          <div class="card-body  ro1-2">
+
+
+
+            <div class="forecast-content" id="current">
+              <div class="location" id="location"></div>
+              <div class="degree">
+                <div class="num  d-inline-block "><span id="toDayDegree"></span><sup class="">o</sup>C</div>
+
+                <div class="forecast-icon d-inline-block vertica  ">
+                  <img src="" alt="" width="90" id="img" class="">
+                </div>
+
+              </div>
+              <div class="custom mb-2" id="case"></div>
+              <span class="text-muted me-3"><img class="me-2"
+                  src="https://routeweather.netlify.app/images/icon-umberella@2x.png" alt="" width="21"
+                  height="22">20%</span>
+              <span class="text-muted me-3"><img class="me-2"
+                  src="https://routeweather.netlify.app/images/icon-wind@2x.png" alt="" width="23"
+                  height="22">18km/h</span>
+              <span class="text-muted me-3"><img class="me-2"
+                  src="https://routeweather.netlify.app/images/icon-compass@2x.png" alt="" width="21"
+                  height="22">East</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4  p-0 card border-0 color2">
+          <div class="card-footer ro1-1  top d-flex justify-content-center">
+            <small class="text-muted " id="tomorrow-name1"></small>
+          </div>
+          <div class="card-body">
+            <div class="forecast-content text-center">
+              <div class="forecast-icon mb-2">
+                <img src="" id="img1" alt="" width="48">
+              </div>
+              <div class="degree tdegree"><span id="degree1"></span>C</div>
+              <small id="mindeg1"></small>
+              <div class="color my-2"><span id="thiscase1"></span></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4  p-0 card border-0 color1">
+          <div class="card-footer ro1-1  top d-flex justify-content-center">
+            <small class="text-muted " id="tomorrow-name2"></small>
+          </div>
+          <div class="card-body">
+            <div class="forecast-content text-center">
+              <div class="forecast-icon mb-2">
+                <img src="" id="img2" alt="" width="48">
+              </div>
+              <div class="degree tdegree"><span id="degree2"></span>C</div>
+              <small id="mindeg2"> </small>
+              <div class="color my-2"><span id="thiscase2"></span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  
+  <footer class="">
+
+
+
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 position-relative text-center mb-2">
+          <input type="text" class="city-input border-0 border w-75" id="city-input">
+          <input type="button" value="Subscribe" class="footer-btn" id="submit">
+        </div>
+        <div class="col-md-3 col-md-offset-1 text-center">
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
